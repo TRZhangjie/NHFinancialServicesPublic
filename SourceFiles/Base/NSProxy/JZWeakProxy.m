@@ -1,9 +1,8 @@
 //
 //  JZWeakProxy.m
-//  BoxLove
 //
-//  Created by Code_浅蓝 on 2018/8/3.
-//  Copyright © 2018年 张杰. All rights reserved.
+//  Created by Code_浅蓝 on 2019/5/21.
+//  Copyright © 2019年 Inkwell. All rights reserved.
 //
 
 #import "JZWeakProxy.h"
