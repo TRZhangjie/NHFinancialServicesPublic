@@ -7,6 +7,10 @@
 
 #import "BaseTableView.h"
 
+#import <Masonry/Masonry.h>
+#import "UIColor+ColorMethodExtension.h"
+#import "InkwellFrameMarco.h"
+
 @implementation BaseTableView
 
 - (instancetype)init
@@ -27,7 +31,7 @@
 #pragma mark- setUpUI
 - (void)setUpTableViewUI{
    
-    self.tableView.backgroundColor = kBackGroundColor;
+    self.tableView.backgroundColor = [UIColor jh_colorWithHexString:@"#1a1b20"];
     self.tableView = [[UITableView alloc] init];
     [self addSubview:self.tableView];
     [self.tableView mas_makeConstraints:^(MASConstraintMaker *make) {
@@ -45,7 +49,7 @@
     
     //分割线
     self.tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
-    self.tableView.separatorColor = kfontColorGray;
+    self.tableView.separatorColor = [UIColor jh_decimalColorWithRed:128 green:128 blue:128];
     self.tableView.separatorInset = UIEdgeInsetsMake(0,Adapted(15), 0, Adapted(15));
     
 

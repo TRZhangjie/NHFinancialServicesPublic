@@ -8,6 +8,12 @@
 
 #import "BaseTableViewGroup.h"
 
+#import <Masonry/Masonry.h>
+#import <MJRefresh/MJRefresh.h>
+#import "UIColor+ColorMethodExtension.h"
+#import "InkwellFrameMarco.h"
+#import "InkwellFontMarco.h"
+
 @interface BaseTableViewGroup ()<UIScrollViewDelegate>
 
 @end
@@ -22,7 +28,7 @@
 #pragma mark - setUpUI
 - (void)setUpTableViewUI{
     
-    self.tableView.backgroundColor = kBackGroundColor;
+    self.tableView.backgroundColor = [UIColor jh_colorWithHexString:@"#1a1b20"];
     self.tableView = [[UITableView alloc]initWithFrame:CGRectZero style:UITableViewStyleGrouped];
     [self.view addSubview:self.tableView];
     [self.tableView mas_makeConstraints:^(MASConstraintMaker *make) {
@@ -41,8 +47,7 @@
     self.tableView.rowHeight =UITableViewAutomaticDimension;
     //分割线
     self.tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
-    //self.tableView.separatorColor = kLineAssistColor;
-    //self.tableView.separatorInset = UIEdgeInsetsMake(0,Adapted(15), 0, Adapted(15));
+ 
     
     if (@available(iOS 11.0, *)) {
         self.tableView.contentInsetAdjustmentBehavior = UIScrollViewContentInsetAdjustmentAutomatic;
@@ -148,7 +153,7 @@
     if (!_noDataView) {
         /// ! 容器
         _noDataView = [[UIView alloc] init];
-        _noDataView.backgroundColor = white_color;
+        _noDataView.backgroundColor = [UIColor whiteColor];
         [self.tableView addSubview:_noDataView];
         [_noDataView mas_makeConstraints:^(MASConstraintMaker *make) {
             make.left.equalTo(self.view);
@@ -163,18 +168,18 @@
         [_noDataView addSubview:imgView];
         [imgView mas_makeConstraints:^(MASConstraintMaker *make) {
             make.size.mas_equalTo(CGSizeMake(Adapted(157.5f), Adapted(128.0f)));
-            make.center.equalTo(_noDataView);
+            make.center.equalTo(self->_noDataView);
         }];
         
         /// ! 提示
         UILabel *msgLabel = [[UILabel alloc] init];
         msgLabel.text = @"暂无更多数据";
         msgLabel.font = H18;
-        msgLabel.textColor = kfontColorGray;
+        msgLabel.textColor = [UIColor jh_decimalColorWithRed:128 green:128 blue:128];
         msgLabel.textAlignment = 1;
         [_noDataView addSubview:msgLabel];
         [msgLabel mas_makeConstraints:^(MASConstraintMaker *make) {
-            make.centerX.equalTo(_noDataView);
+            make.centerX.equalTo(self->_noDataView);
             make.top.equalTo(imgView.mas_bottom).offset(Adapted(10.0f));
         }];
     }

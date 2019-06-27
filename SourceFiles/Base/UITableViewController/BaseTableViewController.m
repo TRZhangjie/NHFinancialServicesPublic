@@ -8,6 +8,11 @@
 
 #import "BaseTableViewController.h"
 
+#import <Masonry/Masonry.h>
+#import <MJRefresh/MJRefresh.h>
+#import "UIColor+ColorMethodExtension.h"
+#import "InkwellFrameMarco.h"
+
 @interface BaseTableViewController ()<UIScrollViewDelegate>
 
 @end
@@ -20,7 +25,7 @@
 }
 #pragma mark- setUpUI
 -(void)setUpTableViewUI{
-    self.tableView.backgroundColor = kBackGroundColor;
+    self.tableView.backgroundColor = [UIColor jh_colorWithHexString:@"#1a1b20"];;
     self.tableView = [[UITableView alloc]initWithFrame:CGRectZero style:UITableViewStylePlain];
     [self.view addSubview:self.tableView];
     [self.tableView mas_makeConstraints:^(MASConstraintMaker *make) {
@@ -37,7 +42,7 @@
     self.tableView.rowHeight =UITableViewAutomaticDimension;
     //分割线
     self.tableView.separatorStyle = UITableViewCellSeparatorStyleSingleLine;
-    self.tableView.separatorColor = kLineAssistColor;
+    self.tableView.separatorColor = [UIColor jh_colorWithHexString:@"#393a3d"];
     self.tableView.separatorInset = UIEdgeInsetsMake(0,Adapted(15), 0, Adapted(15));
     
     if (@available(iOS 11.0, *)) {

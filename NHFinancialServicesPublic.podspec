@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
     #库名称
     s.name             = 'NHFinancialServicesPublic'   
     #版本号
-    s.version          = '1.0.0'
+    s.version          = '1.0.1'
     #库简短介绍,以后search到简介
     s.summary          = 'iOS 测试库组件'
     #开源库描述,定义具体的描述
@@ -18,8 +18,9 @@ Pod::Spec.new do |s|
     s.source        = { :git => "https://github.com/TRZhangjie/NHFinancialServicesPublic.git", :tag => "#{s.version}" }
 	
     #源库资源文件
-    s.source_files  = 'SourceFiles'  
+    s.source_files  = 'SourceFiles/**/*.{h,m}'  
     s.exclude_files = "Classes/Exclude"
+
 
     #build的平台
     s.platform     = :ios, "8.0"
@@ -30,5 +31,7 @@ Pod::Spec.new do |s|
     s.author        = { "" => "" }
     #社交网址
     s.social_media_url = 'https://github.com/TRZhangjie'
+
+    s.dependency 'Masonry', '>= 1.1.0'
 
 end

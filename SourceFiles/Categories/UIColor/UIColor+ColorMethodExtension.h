@@ -35,7 +35,6 @@
 /**
  ! 十六进制颜色
  @param hex 0xe5e5e5
- @param alpha 0~1
  @return UIColor
  */
 + (UIColor *)jh_hexColorWithHex:(u_int32_t)hex;

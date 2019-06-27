@@ -1,0 +1,792 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		228DBD8822C45C85004234E2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 228DBD8722C45C85004234E2 /* AppDelegate.m */; };
+		228DBD8B22C45C85004234E2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 228DBD8A22C45C85004234E2 /* ViewController.m */; };
+		228DBD8E22C45C85004234E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 228DBD8C22C45C85004234E2 /* Main.storyboard */; };
+		228DBD9022C45C87004234E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 228DBD8F22C45C87004234E2 /* Assets.xcassets */; };
+		228DBD9322C45C87004234E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 228DBD9122C45C87004234E2 /* LaunchScreen.storyboard */; };
+		228DBD9622C45C87004234E2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 228DBD9522C45C87004234E2 /* main.m */; };
+		228DBDA022C45C87004234E2 /* NHFinancialServicesPublicTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 228DBD9F22C45C87004234E2 /* NHFinancialServicesPublicTests.m */; };
+		228DBDAB22C45C87004234E2 /* NHFinancialServicesPublicUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 228DBDAA22C45C87004234E2 /* NHFinancialServicesPublicUITests.m */; };
+		228DBDFC22C45FBC004234E2 /* NSDictionary+SpecifiedFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = 228DBDE622C45FBC004234E2 /* NSDictionary+SpecifiedFormat.m */; };
+		228DBDFD22C45FBC004234E2 /* UIColor+ColorMethodExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 228DBDE822C45FBC004234E2 /* UIColor+ColorMethodExtension.m */; };
+		228DBDFE22C45FBC004234E2 /* BaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 228DBDEC22C45FBC004234E2 /* BaseTableViewController.m */; };
+		228DBDFF22C45FBC004234E2 /* BaseTableViewGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 228DBDED22C45FBC004234E2 /* BaseTableViewGroup.m */; };
+		228DBE0022C45FBC004234E2 /* BaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 228DBDF122C45FBC004234E2 /* BaseTableViewCell.m */; };
+		228DBE0122C45FBC004234E2 /* BaseTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 228DBDF422C45FBC004234E2 /* BaseTableView.m */; };
+		228DBE0222C45FBC004234E2 /* BaseCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 228DBDF822C45FBC004234E2 /* BaseCollectionViewCell.m */; };
+		228DBE0322C45FBC004234E2 /* JZWeakProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 228DBDFB22C45FBC004234E2 /* JZWeakProxy.m */; };
+		BA848AA331C39C253EC55240 /* libPods-NHFinancialServicesPublic.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 11477577DD42A5629E496828 /* libPods-NHFinancialServicesPublic.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		228DBD9C22C45C87004234E2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 228DBD7B22C45C85004234E2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 228DBD8222C45C85004234E2;
+			remoteInfo = NHFinancialServicesPublic;
+		};
+		228DBDA722C45C87004234E2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 228DBD7B22C45C85004234E2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 228DBD8222C45C85004234E2;
+			remoteInfo = NHFinancialServicesPublic;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		11477577DD42A5629E496828 /* libPods-NHFinancialServicesPublic.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NHFinancialServicesPublic.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		228DBD8322C45C85004234E2 /* NHFinancialServicesPublic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NHFinancialServicesPublic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		228DBD8622C45C85004234E2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		228DBD8722C45C85004234E2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		228DBD8922C45C85004234E2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		228DBD8A22C45C85004234E2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		228DBD8D22C45C85004234E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		228DBD8F22C45C87004234E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		228DBD9222C45C87004234E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		228DBD9422C45C87004234E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		228DBD9522C45C87004234E2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		228DBD9B22C45C87004234E2 /* NHFinancialServicesPublicTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NHFinancialServicesPublicTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		228DBD9F22C45C87004234E2 /* NHFinancialServicesPublicTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NHFinancialServicesPublicTests.m; sourceTree = "<group>"; };
+		228DBDA122C45C87004234E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		228DBDA622C45C87004234E2 /* NHFinancialServicesPublicUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NHFinancialServicesPublicUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		228DBDAA22C45C87004234E2 /* NHFinancialServicesPublicUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NHFinancialServicesPublicUITests.m; sourceTree = "<group>"; };
+		228DBDAC22C45C87004234E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		228DBDE022C45FBC004234E2 /* InkwellNounMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InkwellNounMacro.h; sourceTree = "<group>"; };
+		228DBDE122C45FBC004234E2 /* InkwellFontMarco.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InkwellFontMarco.h; sourceTree = "<group>"; };
+		228DBDE222C45FBC004234E2 /* InkwellFrameMarco.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InkwellFrameMarco.h; sourceTree = "<group>"; };
+		228DBDE522C45FBC004234E2 /* NSDictionary+SpecifiedFormat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+SpecifiedFormat.h"; sourceTree = "<group>"; };
+		228DBDE622C45FBC004234E2 /* NSDictionary+SpecifiedFormat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+SpecifiedFormat.m"; sourceTree = "<group>"; };
+		228DBDE822C45FBC004234E2 /* UIColor+ColorMethodExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+ColorMethodExtension.m"; sourceTree = "<group>"; };
+		228DBDE922C45FBC004234E2 /* UIColor+ColorMethodExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+ColorMethodExtension.h"; sourceTree = "<group>"; };
+		228DBDEC22C45FBC004234E2 /* BaseTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTableViewController.m; sourceTree = "<group>"; };
+		228DBDED22C45FBC004234E2 /* BaseTableViewGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTableViewGroup.m; sourceTree = "<group>"; };
+		228DBDEE22C45FBC004234E2 /* BaseTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTableViewController.h; sourceTree = "<group>"; };
+		228DBDEF22C45FBC004234E2 /* BaseTableViewGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTableViewGroup.h; sourceTree = "<group>"; };
+		228DBDF122C45FBC004234E2 /* BaseTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTableViewCell.m; sourceTree = "<group>"; };
+		228DBDF222C45FBC004234E2 /* BaseTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTableViewCell.h; sourceTree = "<group>"; };
+		228DBDF422C45FBC004234E2 /* BaseTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTableView.m; sourceTree = "<group>"; };
+		228DBDF522C45FBC004234E2 /* BaseTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTableView.h; sourceTree = "<group>"; };
+		228DBDF722C45FBC004234E2 /* BaseCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseCollectionViewCell.h; sourceTree = "<group>"; };
+		228DBDF822C45FBC004234E2 /* BaseCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseCollectionViewCell.m; sourceTree = "<group>"; };
+		228DBDFA22C45FBC004234E2 /* JZWeakProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JZWeakProxy.h; sourceTree = "<group>"; };
+		228DBDFB22C45FBC004234E2 /* JZWeakProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JZWeakProxy.m; sourceTree = "<group>"; };
+		3C657EF59DC0C0885A4C4857 /* Pods-NHFinancialServicesPublic.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NHFinancialServicesPublic.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NHFinancialServicesPublic/Pods-NHFinancialServicesPublic.debug.xcconfig"; sourceTree = "<group>"; };
+		849C38B75122DC271BF7394D /* Pods-NHFinancialServicesPublic.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NHFinancialServicesPublic.release.xcconfig"; path = "Pods/Target Support Files/Pods-NHFinancialServicesPublic/Pods-NHFinancialServicesPublic.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		228DBD8022C45C85004234E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA848AA331C39C253EC55240 /* libPods-NHFinancialServicesPublic.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		228DBD9822C45C87004234E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		228DBDA322C45C87004234E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		228DBD7A22C45C85004234E2 = {
+			isa = PBXGroup;
+			children = (
+				228DBD8522C45C85004234E2 /* NHFinancialServicesPublic */,
+				228DBD9E22C45C87004234E2 /* NHFinancialServicesPublicTests */,
+				228DBDA922C45C87004234E2 /* NHFinancialServicesPublicUITests */,
+				228DBD8422C45C85004234E2 /* Products */,
+				71AE64AA8BDA0C075AD97430 /* Pods */,
+				AA06B70AB17236EDBDEAB2E3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		228DBD8422C45C85004234E2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				228DBD8322C45C85004234E2 /* NHFinancialServicesPublic.app */,
+				228DBD9B22C45C87004234E2 /* NHFinancialServicesPublicTests.xctest */,
+				228DBDA622C45C87004234E2 /* NHFinancialServicesPublicUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		228DBD8522C45C85004234E2 /* NHFinancialServicesPublic */ = {
+			isa = PBXGroup;
+			children = (
+				228DBDDE22C45FBC004234E2 /* SourceFiles */,
+				228DBD8622C45C85004234E2 /* AppDelegate.h */,
+				228DBD8722C45C85004234E2 /* AppDelegate.m */,
+				228DBD8922C45C85004234E2 /* ViewController.h */,
+				228DBD8A22C45C85004234E2 /* ViewController.m */,
+				228DBD8C22C45C85004234E2 /* Main.storyboard */,
+				228DBD8F22C45C87004234E2 /* Assets.xcassets */,
+				228DBD9122C45C87004234E2 /* LaunchScreen.storyboard */,
+				228DBD9422C45C87004234E2 /* Info.plist */,
+				228DBD9522C45C87004234E2 /* main.m */,
+			);
+			path = NHFinancialServicesPublic;
+			sourceTree = "<group>";
+		};
+		228DBD9E22C45C87004234E2 /* NHFinancialServicesPublicTests */ = {
+			isa = PBXGroup;
+			children = (
+				228DBD9F22C45C87004234E2 /* NHFinancialServicesPublicTests.m */,
+				228DBDA122C45C87004234E2 /* Info.plist */,
+			);
+			path = NHFinancialServicesPublicTests;
+			sourceTree = "<group>";
+		};
+		228DBDA922C45C87004234E2 /* NHFinancialServicesPublicUITests */ = {
+			isa = PBXGroup;
+			children = (
+				228DBDAA22C45C87004234E2 /* NHFinancialServicesPublicUITests.m */,
+				228DBDAC22C45C87004234E2 /* Info.plist */,
+			);
+			path = NHFinancialServicesPublicUITests;
+			sourceTree = "<group>";
+		};
+		228DBDDE22C45FBC004234E2 /* SourceFiles */ = {
+			isa = PBXGroup;
+			children = (
+				228DBDDF22C45FBC004234E2 /* Macro */,
+				228DBDE322C45FBC004234E2 /* Categories */,
+				228DBDEA22C45FBC004234E2 /* Base */,
+			);
+			path = SourceFiles;
+			sourceTree = SOURCE_ROOT;
+		};
+		228DBDDF22C45FBC004234E2 /* Macro */ = {
+			isa = PBXGroup;
+			children = (
+				228DBDE022C45FBC004234E2 /* InkwellNounMacro.h */,
+				228DBDE122C45FBC004234E2 /* InkwellFontMarco.h */,
+				228DBDE222C45FBC004234E2 /* InkwellFrameMarco.h */,
+			);
+			path = Macro;
+			sourceTree = "<group>";
+		};
+		228DBDE322C45FBC004234E2 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				228DBDE422C45FBC004234E2 /* NSDictionary */,
+				228DBDE722C45FBC004234E2 /* UIColor */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		228DBDE422C45FBC004234E2 /* NSDictionary */ = {
+			isa = PBXGroup;
+			children = (
+				228DBDE522C45FBC004234E2 /* NSDictionary+SpecifiedFormat.h */,
+				228DBDE622C45FBC004234E2 /* NSDictionary+SpecifiedFormat.m */,
+			);
+			path = NSDictionary;
+			sourceTree = "<group>";
+		};
+		228DBDE722C45FBC004234E2 /* UIColor */ = {
+			isa = PBXGroup;
+			children = (
+				228DBDE822C45FBC004234E2 /* UIColor+ColorMethodExtension.m */,
+				228DBDE922C45FBC004234E2 /* UIColor+ColorMethodExtension.h */,
+			);
+			path = UIColor;
+			sourceTree = "<group>";
+		};
+		228DBDEA22C45FBC004234E2 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				228DBDEB22C45FBC004234E2 /* UITableViewController */,
+				228DBDF022C45FBC004234E2 /* UITableViewCell */,
+				228DBDF322C45FBC004234E2 /* UIView */,
+				228DBDF622C45FBC004234E2 /* UICollectionViewCell */,
+				228DBDF922C45FBC004234E2 /* NSProxy */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		228DBDEB22C45FBC004234E2 /* UITableViewController */ = {
+			isa = PBXGroup;
+			children = (
+				228DBDEE22C45FBC004234E2 /* BaseTableViewController.h */,
+				228DBDEC22C45FBC004234E2 /* BaseTableViewController.m */,
+				228DBDEF22C45FBC004234E2 /* BaseTableViewGroup.h */,
+				228DBDED22C45FBC004234E2 /* BaseTableViewGroup.m */,
+			);
+			path = UITableViewController;
+			sourceTree = "<group>";
+		};
+		228DBDF022C45FBC004234E2 /* UITableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				228DBDF222C45FBC004234E2 /* BaseTableViewCell.h */,
+				228DBDF122C45FBC004234E2 /* BaseTableViewCell.m */,
+			);
+			path = UITableViewCell;
+			sourceTree = "<group>";
+		};
+		228DBDF322C45FBC004234E2 /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				228DBDF522C45FBC004234E2 /* BaseTableView.h */,
+				228DBDF422C45FBC004234E2 /* BaseTableView.m */,
+			);
+			path = UIView;
+			sourceTree = "<group>";
+		};
+		228DBDF622C45FBC004234E2 /* UICollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				228DBDF722C45FBC004234E2 /* BaseCollectionViewCell.h */,
+				228DBDF822C45FBC004234E2 /* BaseCollectionViewCell.m */,
+			);
+			path = UICollectionViewCell;
+			sourceTree = "<group>";
+		};
+		228DBDF922C45FBC004234E2 /* NSProxy */ = {
+			isa = PBXGroup;
+			children = (
+				228DBDFA22C45FBC004234E2 /* JZWeakProxy.h */,
+				228DBDFB22C45FBC004234E2 /* JZWeakProxy.m */,
+			);
+			path = NSProxy;
+			sourceTree = "<group>";
+		};
+		71AE64AA8BDA0C075AD97430 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3C657EF59DC0C0885A4C4857 /* Pods-NHFinancialServicesPublic.debug.xcconfig */,
+				849C38B75122DC271BF7394D /* Pods-NHFinancialServicesPublic.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AA06B70AB17236EDBDEAB2E3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				11477577DD42A5629E496828 /* libPods-NHFinancialServicesPublic.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		228DBD8222C45C85004234E2 /* NHFinancialServicesPublic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 228DBDAF22C45C87004234E2 /* Build configuration list for PBXNativeTarget "NHFinancialServicesPublic" */;
+			buildPhases = (
+				295CCEED178337DE5C7E33B8 /* [CP] Check Pods Manifest.lock */,
+				228DBD7F22C45C85004234E2 /* Sources */,
+				228DBD8022C45C85004234E2 /* Frameworks */,
+				228DBD8122C45C85004234E2 /* Resources */,
+				53AD09B43DE03436529C57B4 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NHFinancialServicesPublic;
+			productName = NHFinancialServicesPublic;
+			productReference = 228DBD8322C45C85004234E2 /* NHFinancialServicesPublic.app */;
+			productType = "com.apple.product-type.application";
+		};
+		228DBD9A22C45C87004234E2 /* NHFinancialServicesPublicTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 228DBDB222C45C87004234E2 /* Build configuration list for PBXNativeTarget "NHFinancialServicesPublicTests" */;
+			buildPhases = (
+				228DBD9722C45C87004234E2 /* Sources */,
+				228DBD9822C45C87004234E2 /* Frameworks */,
+				228DBD9922C45C87004234E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				228DBD9D22C45C87004234E2 /* PBXTargetDependency */,
+			);
+			name = NHFinancialServicesPublicTests;
+			productName = NHFinancialServicesPublicTests;
+			productReference = 228DBD9B22C45C87004234E2 /* NHFinancialServicesPublicTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		228DBDA522C45C87004234E2 /* NHFinancialServicesPublicUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 228DBDB522C45C87004234E2 /* Build configuration list for PBXNativeTarget "NHFinancialServicesPublicUITests" */;
+			buildPhases = (
+				228DBDA222C45C87004234E2 /* Sources */,
+				228DBDA322C45C87004234E2 /* Frameworks */,
+				228DBDA422C45C87004234E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				228DBDA822C45C87004234E2 /* PBXTargetDependency */,
+			);
+			name = NHFinancialServicesPublicUITests;
+			productName = NHFinancialServicesPublicUITests;
+			productReference = 228DBDA622C45C87004234E2 /* NHFinancialServicesPublicUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		228DBD7B22C45C85004234E2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = Inkwell;
+				TargetAttributes = {
+					228DBD8222C45C85004234E2 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					228DBD9A22C45C87004234E2 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 228DBD8222C45C85004234E2;
+					};
+					228DBDA522C45C87004234E2 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 228DBD8222C45C85004234E2;
+					};
+				};
+			};
+			buildConfigurationList = 228DBD7E22C45C85004234E2 /* Build configuration list for PBXProject "NHFinancialServicesPublic" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 228DBD7A22C45C85004234E2;
+			productRefGroup = 228DBD8422C45C85004234E2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				228DBD8222C45C85004234E2 /* NHFinancialServicesPublic */,
+				228DBD9A22C45C87004234E2 /* NHFinancialServicesPublicTests */,
+				228DBDA522C45C87004234E2 /* NHFinancialServicesPublicUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		228DBD8122C45C85004234E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				228DBD9322C45C87004234E2 /* LaunchScreen.storyboard in Resources */,
+				228DBD9022C45C87004234E2 /* Assets.xcassets in Resources */,
+				228DBD8E22C45C85004234E2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		228DBD9922C45C87004234E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		228DBDA422C45C87004234E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		295CCEED178337DE5C7E33B8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NHFinancialServicesPublic-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		53AD09B43DE03436529C57B4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-NHFinancialServicesPublic/Pods-NHFinancialServicesPublic-resources.sh",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NHFinancialServicesPublic/Pods-NHFinancialServicesPublic-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		228DBD7F22C45C85004234E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				228DBE0122C45FBC004234E2 /* BaseTableView.m in Sources */,
+				228DBDFC22C45FBC004234E2 /* NSDictionary+SpecifiedFormat.m in Sources */,
+				228DBD8B22C45C85004234E2 /* ViewController.m in Sources */,
+				228DBE0222C45FBC004234E2 /* BaseCollectionViewCell.m in Sources */,
+				228DBD9622C45C87004234E2 /* main.m in Sources */,
+				228DBDFD22C45FBC004234E2 /* UIColor+ColorMethodExtension.m in Sources */,
+				228DBE0022C45FBC004234E2 /* BaseTableViewCell.m in Sources */,
+				228DBDFE22C45FBC004234E2 /* BaseTableViewController.m in Sources */,
+				228DBDFF22C45FBC004234E2 /* BaseTableViewGroup.m in Sources */,
+				228DBE0322C45FBC004234E2 /* JZWeakProxy.m in Sources */,
+				228DBD8822C45C85004234E2 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		228DBD9722C45C87004234E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				228DBDA022C45C87004234E2 /* NHFinancialServicesPublicTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		228DBDA222C45C87004234E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				228DBDAB22C45C87004234E2 /* NHFinancialServicesPublicUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		228DBD9D22C45C87004234E2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 228DBD8222C45C85004234E2 /* NHFinancialServicesPublic */;
+			targetProxy = 228DBD9C22C45C87004234E2 /* PBXContainerItemProxy */;
+		};
+		228DBDA822C45C87004234E2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 228DBD8222C45C85004234E2 /* NHFinancialServicesPublic */;
+			targetProxy = 228DBDA722C45C87004234E2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		228DBD8C22C45C85004234E2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				228DBD8D22C45C85004234E2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		228DBD9122C45C87004234E2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				228DBD9222C45C87004234E2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		228DBDAD22C45C87004234E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		228DBDAE22C45C87004234E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		228DBDB022C45C87004234E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C657EF59DC0C0885A4C4857 /* Pods-NHFinancialServicesPublic.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = D75CFW9AME;
+				INFOPLIST_FILE = NHFinancialServicesPublic/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jhjf.test2.commpent;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = dev_jhjf_20190524;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		228DBDB122C45C87004234E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 849C38B75122DC271BF7394D /* Pods-NHFinancialServicesPublic.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = D75CFW9AME;
+				INFOPLIST_FILE = NHFinancialServicesPublic/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jhjf.test2.commpent;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = dev_jhjf_20190524;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		228DBDB322C45C87004234E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NHFinancialServicesPublicTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Inkwell.NHFinancialServicesPublicTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NHFinancialServicesPublic.app/NHFinancialServicesPublic";
+			};
+			name = Debug;
+		};
+		228DBDB422C45C87004234E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NHFinancialServicesPublicTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Inkwell.NHFinancialServicesPublicTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NHFinancialServicesPublic.app/NHFinancialServicesPublic";
+			};
+			name = Release;
+		};
+		228DBDB622C45C87004234E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NHFinancialServicesPublicUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Inkwell.NHFinancialServicesPublicUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NHFinancialServicesPublic;
+			};
+			name = Debug;
+		};
+		228DBDB722C45C87004234E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NHFinancialServicesPublicUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Inkwell.NHFinancialServicesPublicUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NHFinancialServicesPublic;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		228DBD7E22C45C85004234E2 /* Build configuration list for PBXProject "NHFinancialServicesPublic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				228DBDAD22C45C87004234E2 /* Debug */,
+				228DBDAE22C45C87004234E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		228DBDAF22C45C87004234E2 /* Build configuration list for PBXNativeTarget "NHFinancialServicesPublic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				228DBDB022C45C87004234E2 /* Debug */,
+				228DBDB122C45C87004234E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		228DBDB222C45C87004234E2 /* Build configuration list for PBXNativeTarget "NHFinancialServicesPublicTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				228DBDB322C45C87004234E2 /* Debug */,
+				228DBDB422C45C87004234E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		228DBDB522C45C87004234E2 /* Build configuration list for PBXNativeTarget "NHFinancialServicesPublicUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				228DBDB622C45C87004234E2 /* Debug */,
+				228DBDB722C45C87004234E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 228DBD7B22C45C85004234E2 /* Project object */;
+}
