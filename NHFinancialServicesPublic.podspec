@@ -33,5 +33,6 @@ Pod::Spec.new do |s|
     s.social_media_url = 'https://github.com/TRZhangjie'
 
     s.dependency 'Masonry', '>= 1.1.0'
-
+    s.dependency 'MJRefresh', '~> 3.1.0'
+	
 end
